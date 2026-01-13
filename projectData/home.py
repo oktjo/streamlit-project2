@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 # 1. Page Configuration
 st.set_page_config(
@@ -92,3 +92,4 @@ try:
 
 except FileNotFoundError:
     st.error("Error: The file 'data/uneb.csv' was not found. Please ensure the file exists.")
+
